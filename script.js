@@ -126,6 +126,14 @@
     if (link && about) { about.open = true; }
   });
 
+  /* ---------- Pause the orbit animation while it is off-screen ---------- */
+  var solar = document.getElementById('solar');
+  if (solar && 'IntersectionObserver' in window) {
+    new IntersectionObserver(function (entries) {
+      solar.classList.toggle('is-paused', !entries[0].isIntersecting);
+    }).observe(solar);
+  }
+
   /* ---------- Footer year ---------- */
   var year = document.getElementById('year');
   if (year) { year.textContent = String(new Date().getFullYear()); }

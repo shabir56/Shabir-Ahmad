@@ -4,12 +4,11 @@
   'use strict';
 
   var root = document.documentElement;
-  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   /* ---------- Theme toggle (dark by default, choice is remembered) ---------- */
   var themeBtn = document.getElementById('theme-toggle');
   var metaTheme = document.querySelector('meta[name="theme-color"]');
-  var THEME_COLOR = { dark: '#0b1020', light: '#f7f5ef' };
+  var THEME_COLOR = { dark: '#0e1430', light: '#eef0f5' };
 
   function applyTheme(theme, save) {
     root.setAttribute('data-theme', theme);
@@ -94,23 +93,6 @@
       var section = document.getElementById(id);
       if (section) { spy.observe(section); }
     });
-  }
-
-  /* ---------- Reveal-on-scroll (subtle; skipped for reduced motion) ---------- */
-  var revealEls = [].slice.call(document.querySelectorAll('.reveal'));
-
-  if (!('IntersectionObserver' in window) || reduceMotion) {
-    revealEls.forEach(function (el) { el.classList.add('is-visible'); });
-  } else {
-    var reveal = new IntersectionObserver(function (entries, observer) {
-      entries.forEach(function (entry) {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('is-visible');
-          observer.unobserve(entry.target);
-        }
-      });
-    }, { rootMargin: '0px 0px -6% 0px', threshold: 0.08 });
-    revealEls.forEach(function (el) { reveal.observe(el); });
   }
 
   /* ---------- Pause the orbit animation while it is off-screen ---------- */

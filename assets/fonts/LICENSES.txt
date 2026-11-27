@@ -1,0 +1,4 @@
+Fonts used by this site (all SIL Open Font License 1.1, https://openfontlicense.org):
+  bodoni-moda.woff2      Bodoni Moda, Copyright 2020 The Bodoni Moda Project Authors (github.com/indestructible-type/Bodoni)
+  hanken-grotesk.woff2   Hanken Grotesk, Copyright 2021 The Hanken Grotesk Project Authors (github.com/marcologous/hanken-grotesk)
+  naskh-*.woff2          Noto Naskh Arabic, Copyright 2022 The Noto Project Authors (github.com/notofonts/arabic), subset

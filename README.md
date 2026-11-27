@@ -8,11 +8,17 @@ Personal portfolio of Shabir Ahmad, an independent developer from Loralai, Baloc
 
 Plain HTML, CSS and JavaScript. No frameworks and no build step, so the repository root is the site.
 
+Design: a plate from a star atlas. Night ink and starlight (dark) or pale paper (light), one saffron accent,
+Bodoni Moda headings, hairline rules instead of boxes; each section has its heading in the left margin. The portrait
+with its orbits is the one bold element, so the rest stays quiet (no scroll animations, no card grids).
+
 ```
 index.html        page content and structure
 style.css         design tokens (dark and light themes), layout, components
-script.js         theme toggle, mobile menu, active nav link, scroll reveal, orbit pause
+script.js         theme toggle, mobile menu, active nav link, orbit pause
 assets/           portrait, project banners (WebP + JPEG fallback), favicon
+assets/fonts/     self-hosted fonts: Bodoni Moda (headings), Hanken Grotesk (text), Noto Naskh Arabic (Pashto)
+adab/             the Pashtani Wolsi Adab web app (published from shabir56/My-apps, do not edit here)
 .github/workflows/build.yml   unpacks site.zip into the repo if one is pushed
 ```
 

@@ -7,7 +7,7 @@
 <meta name="description" content="Shabir Ahmad is an independent Android and web developer from Loralai, Balochistan, Pakistan, and the maker of Bubbly and Pashtani Wolsi Adab on Google Play.">
 <meta name="author" content="Shabir Ahmad">
 <link rel="canonical" href="https://shabir56.github.io/Shabir-Ahmad/">
-<meta name="theme-color" content="#0b1020">
+<meta name="theme-color" content="#0e1430">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Shabir Ahmad">
@@ -31,14 +31,13 @@
   } catch (e) {}
   if (root.getAttribute('data-theme') === 'light') {
     var m = document.querySelector('meta[name="theme-color"]');
-    if (m) { m.setAttribute('content', '#f7f5ef'); }
+    if (m) { m.setAttribute('content', '#eef0f5'); }
   }
 })();
 </script>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Instrument+Sans:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@500;700&display=swap" rel="stylesheet">
+<link rel="preload" href="assets/fonts/bodoni-moda.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/hanken-grotesk.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css">
 
 <script type="application/ld+json">
@@ -66,17 +65,10 @@
   <symbol id="i-moon" viewBox="0 0 24 24"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></symbol>
   <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/></symbol>
   <symbol id="i-close" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
-  <symbol id="i-mail" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-10 6L2 7"/></symbol>
   <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></symbol>
   <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
   <symbol id="i-github" viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></symbol>
   <symbol id="i-phone" viewBox="0 0 24 24"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></symbol>
-  <symbol id="i-database" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/><path d="M3 12a9 3 0 0 0 18 0"/></symbol>
-  <symbol id="i-code" viewBox="0 0 24 24"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></symbol>
-  <symbol id="i-branch" viewBox="0 0 24 24"><path d="M6 3v12"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></symbol>
-  <symbol id="i-book" viewBox="0 0 24 24"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></symbol>
-  <symbol id="i-flask" viewBox="0 0 24 24"><path d="M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2"/><path d="M8.5 2h7"/><path d="M7 16h10"/></symbol>
-  <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></symbol>
 </svg>
 
 <a class="skip-link" href="#main">Skip to content</a>
@@ -84,7 +76,7 @@
 <header class="site-header" id="top">
   <div class="wrap nav">
     <a class="brand" href="#top" aria-label="Shabir Ahmad, back to top">
-      <span class="brand-mark" aria-hidden="true">SA</span>
+      <span class="brand-mark" aria-hidden="true"></span>
       <span class="brand-name">Shabir Ahmad</span>
     </a>
 
@@ -158,55 +150,50 @@
   </section>
 
   <!-- About -->
-  <section id="about" class="about-section" aria-labelledby="about-title">
-    <div class="wrap">
-      <div class="about-card reveal">
-        <h2 id="about-title">About me</h2>
-        <div class="about-body">
-          <div class="about-text">
-            <p>I'm Shabir Ahmad, an independent developer from Loralai, Balochistan. I build Android apps and games with Kotlin and Jetpack Compose, and web apps with HTML, CSS and JavaScript, and I take each project from the first idea to its release on Google Play.</p>
-            <p>My app Pashtani Wolsi Adab grew out of my love for Pashto folk literature. It collects <bdi lang="ps" dir="rtl">ټپې</bdi> and <bdi lang="ps" dir="rtl">کاکړۍ غاړې</bdi> so that anyone can read, search and share them, on Android and on iPhone.</p>
-            <p>Alongside development, I help run my family's agricultural supply business in Loralai, where I look after daily operations and suppliers.</p>
-          </div>
-          <dl class="facts">
-            <div><dt>Based in</dt><dd>Loralai, Balochistan, Pakistan</dd></div>
-            <div><dt>Focus</dt><dd>Android apps, games and web apps</dd></div>
-            <div><dt>Education</dt><dd>Intermediate in Computer Science (ICS)</dd></div>
-            <div><dt>Also</dt><dd>Family agricultural supply business</dd></div>
-          </dl>
+  <section id="about" class="section" aria-labelledby="about-title">
+    <div class="wrap split">
+      <h2 id="about-title" class="split-head">About</h2>
+      <div class="split-body about">
+        <div class="prose">
+          <p class="lead">I'm Shabir Ahmad, an independent developer from Loralai, Balochistan. I build Android apps and games with Kotlin and Jetpack Compose, and web apps with HTML, CSS and JavaScript, and I take each project from the first idea to its release on Google Play.</p>
+          <p>My app Pashtani Wolsi Adab grew out of my love for Pashto folk literature. It collects <bdi lang="ps" dir="rtl">ټپې</bdi> and <bdi lang="ps" dir="rtl">کاکړۍ غاړې</bdi> so that anyone can read, search and share them, on Android and on iPhone.</p>
+          <p>Alongside development, I help run my family's agricultural supply business in Loralai, where I look after daily operations and suppliers.</p>
         </div>
+        <dl class="facts">
+          <div><dt>Based in</dt><dd>Loralai, Balochistan, Pakistan</dd></div>
+          <div><dt>Focus</dt><dd>Android apps, games and web apps</dd></div>
+          <div><dt>Education</dt><dd>Intermediate in Computer Science</dd></div>
+          <div><dt>Also</dt><dd>Family agricultural supply business</dd></div>
+        </dl>
       </div>
     </div>
   </section>
 
   <!-- Projects -->
   <section id="projects" class="section" aria-labelledby="projects-title">
-    <div class="wrap">
-      <header class="section-head reveal">
-        <p class="eyebrow">Projects</p>
-        <h2 id="projects-title">Selected work</h2>
-      </header>
+    <div class="wrap split">
+      <h2 id="projects-title" class="split-head">Selected work</h2>
+      <div class="split-body works">
 
-      <div class="projects-grid stagger">
         <!-- Bubbly -->
-        <article class="project reveal" id="bubbly">
-          <div class="project-media">
+        <article class="work" id="bubbly">
+          <figure class="work-media">
             <picture>
-              <source type="image/webp" srcset="assets/bubbly-banner-640.webp 640w, assets/bubbly-banner-1024.webp 1024w" sizes="(min-width: 900px) 546px, calc(100vw - 40px)">
+              <source type="image/webp" srcset="assets/bubbly-banner-640.webp 640w, assets/bubbly-banner-1024.webp 1024w" sizes="(min-width: 900px) 760px, calc(100vw - 40px)">
               <img src="assets/bubbly-banner.jpg" width="1024" height="500" loading="lazy" decoding="async" alt="Bubbly game artwork: colorful smiling bubbles and two phone screens showing gameplay, with the tagline Pop. Match. Clear!">
             </picture>
-          </div>
-          <div class="project-body">
-            <div class="project-head">
+          </figure>
+          <div class="work-text">
+            <div class="work-head">
               <h3>Bubbly</h3>
-              <span class="status status-live"><span class="dot" aria-hidden="true"></span>Live on Google Play</span>
+              <p class="status"><span class="dot" aria-hidden="true"></span>Live on Google Play</p>
             </div>
-            <p class="project-sub">Bubble shooter game for Android</p>
+            <p class="work-sub">Bubble shooter game for Android</p>
             <p>Aim, shoot and match colorful bubbles to clear every level. Match three or more of the same color to pop them, and chain combos for bonus points. Progress and high score are saved automatically.</p>
-            <ul class="chips" aria-label="Project details">
+            <ul class="tags" aria-label="Project details">
               <li>Android</li><li>Puzzle</li><li>Rated 3+</li>
             </ul>
-            <div class="project-actions">
+            <div class="work-actions">
               <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.app.bubbly" target="_blank" rel="noopener noreferrer">Get it on Google Play <svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg><span class="sr-only">(opens in a new tab)</span></a>
               <a class="btn btn-ghost" href="https://sites.google.com/view/bubblyprivacy/home" target="_blank" rel="noopener noreferrer">Privacy policy <span class="sr-only">(opens in a new tab)</span></a>
             </div>
@@ -214,115 +201,72 @@
         </article>
 
         <!-- Pashtani Wolsi Adab -->
-        <article class="project reveal" id="pashtani">
-          <div class="project-media">
+        <article class="work" id="pashtani">
+          <figure class="work-media">
             <picture>
-              <source type="image/webp" srcset="assets/pashtani-banner-640.webp 640w, assets/pashtani-banner-1024.webp 1024w" sizes="(min-width: 900px) 546px, calc(100vw - 40px)">
+              <source type="image/webp" srcset="assets/pashtani-banner-640.webp 640w, assets/pashtani-banner-1024.webp 1024w" sizes="(min-width: 900px) 760px, calc(100vw - 40px)">
               <img src="assets/pashtani-banner.jpg" width="1024" height="500" loading="lazy" decoding="async" alt="Banner for the app پښتني ولسي ادب, Pashtun Folk Literature, showing a rubab on a deep green background">
             </picture>
-          </div>
-          <div class="project-body">
-            <div class="project-head">
+          </figure>
+          <div class="work-text">
+            <div class="work-head">
               <h3>Pashtani Wolsi Adab <span class="ps-title" lang="ps" dir="rtl">پښتني ولسي ادب</span></h3>
-              <span class="status status-live"><span class="dot" aria-hidden="true"></span>Live on Google Play</span>
+              <p class="status"><span class="dot" aria-hidden="true"></span>Live on Google Play</p>
             </div>
-            <p class="project-sub">Pashto folk literature app for Android and iPhone</p>
+            <p class="work-sub">Pashto folk literature app for Android and iPhone</p>
             <p>A home for Pashto folk literature. Read <bdi lang="ps" dir="rtl">ټپې / لنډۍ</bdi> and <bdi lang="ps" dir="rtl">کاکړۍ غاړې</bdi> letter by letter, search them, keep favorites, share any verse as an image, and send new ones for review. Reading works offline.</p>
-            <ul class="chips" aria-label="Project details">
+            <ul class="tags" aria-label="Project details">
               <li>Kotlin</li><li>Jetpack Compose</li><li>Supabase</li><li>Offline-first</li><li>iPhone web app</li>
             </ul>
-            <div class="project-actions">
+            <div class="work-actions">
               <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.pashtani.wulsiadab" target="_blank" rel="noopener noreferrer">Get it on Google Play <svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg><span class="sr-only">(opens in a new tab)</span></a>
               <a class="btn btn-ghost" href="adab/"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg> Open on iPhone / Web</a>
             </div>
           </div>
         </article>
 
-
       </div>
     </div>
   </section>
 
   <!-- Skills -->
-  <section id="skills" class="section section-alt" aria-labelledby="skills-title">
-    <div class="wrap">
-      <header class="section-head reveal">
-        <p class="eyebrow">Skills</p>
-        <h2 id="skills-title">Tech stack</h2>
-      </header>
-      <div class="skills-grid stagger">
-        <article class="skill-card reveal">
-          <span class="skill-icon"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg></span>
-          <h3>Android</h3>
-          <ul class="chips">
-            <li>Kotlin</li><li>Jetpack Compose</li><li>Material 3</li>
-          </ul>
-        </article>
-        <article class="skill-card reveal">
-          <span class="skill-icon"><svg class="icon" aria-hidden="true"><use href="#i-database"/></svg></span>
-          <h3>Data &amp; Backend</h3>
-          <ul class="chips">
-            <li>Room</li><li>DataStore</li><li>WorkManager</li><li>Supabase</li><li>Firebase Cloud Messaging</li>
-          </ul>
-        </article>
-        <article class="skill-card reveal">
-          <span class="skill-icon"><svg class="icon" aria-hidden="true"><use href="#i-code"/></svg></span>
-          <h3>Web</h3>
-          <ul class="chips">
-            <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Progressive Web Apps</li>
-          </ul>
-        </article>
-        <article class="skill-card reveal">
-          <span class="skill-icon"><svg class="icon" aria-hidden="true"><use href="#i-branch"/></svg></span>
-          <h3>Tools &amp; Release</h3>
-          <ul class="chips">
-            <li>Git &amp; GitHub</li><li>GitHub Actions</li><li>GitHub Pages</li><li>Google Play Console</li>
-          </ul>
-        </article>
-      </div>
+  <section id="skills" class="section" aria-labelledby="skills-title">
+    <div class="wrap split">
+      <h2 id="skills-title" class="split-head">Tech stack</h2>
+      <dl class="split-body rows stack">
+        <div><dt>Android</dt><dd>Kotlin, Jetpack Compose, Material 3</dd></div>
+        <div><dt>Data and backend</dt><dd>Room, DataStore, WorkManager, Supabase, Firebase Cloud Messaging</dd></div>
+        <div><dt>Web</dt><dd>HTML, CSS, JavaScript, Progressive Web Apps</dd></div>
+        <div><dt>Tools and release</dt><dd>Git and GitHub, GitHub Actions, GitHub Pages, Google Play Console</dd></div>
+      </dl>
     </div>
   </section>
 
   <!-- Education -->
   <section id="education" class="section" aria-labelledby="education-title">
-    <div class="wrap edu-layout">
-      <header class="section-head reveal">
-        <p class="eyebrow">Education</p>
-        <h2 id="education-title">Academic background</h2>
-      </header>
-      <ol class="timeline stagger">
-        <li class="reveal">
-          <p class="tl-level">Intermediate in Computer Science (ICS)</p>
-          <h3>Government Degree College Loralai</h3>
-        </li>
-        <li class="reveal">
-          <p class="tl-level">Matriculation</p>
-          <h3>ABF School Loralai</h3>
-        </li>
+    <div class="wrap split">
+      <h2 id="education-title" class="split-head">Education</h2>
+      <ol class="split-body rows schools">
+        <li><span class="school">Government Degree College Loralai</span><span class="level">Intermediate in Computer Science (ICS)</span></li>
+        <li><span class="school">ABF School Loralai</span><span class="level">Matriculation</span></li>
       </ol>
     </div>
   </section>
 
   <!-- Interests -->
-  <section id="interests" class="section section-alt" aria-labelledby="interests-title">
-    <div class="wrap">
-      <header class="section-head reveal">
-        <p class="eyebrow">Interests</p>
-        <h2 id="interests-title">Beyond the code</h2>
-      </header>
-      <ul class="interests-grid stagger">
-        <li class="interest reveal">
-          <span class="interest-icon"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg></span>
+  <section id="interests" class="section" aria-labelledby="interests-title">
+    <div class="wrap split">
+      <h2 id="interests-title" class="split-head">Interests</h2>
+      <ul class="split-body interests">
+        <li>
           <h3>Pashto folk literature</h3>
           <p>Oral poetry such as <bdi lang="ps" dir="rtl">ټپې</bdi> and <bdi lang="ps" dir="rtl">کاکړۍ غاړې</bdi>, the inspiration for Pashtani Wolsi Adab.</p>
         </li>
-        <li class="interest reveal">
-          <span class="interest-icon"><svg class="icon" aria-hidden="true"><use href="#i-bulb"/></svg></span>
+        <li>
           <h3>Philosophy</h3>
           <p>Big questions about knowledge, meaning and how we live.</p>
         </li>
-        <li class="interest reveal">
-          <span class="interest-icon"><svg class="icon" aria-hidden="true"><use href="#i-flask"/></svg></span>
+        <li>
           <h3>Science and astronomy</h3>
           <p>How the universe works, from physics to the night sky.</p>
         </li>
@@ -331,39 +275,18 @@
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="section" aria-labelledby="contact-title">
-    <div class="wrap">
-      <header class="section-head reveal">
-        <p class="eyebrow">Contact</p>
-        <h2 id="contact-title">Get in touch</h2>
-        <p class="section-intro">For project inquiries, collaboration or feedback on my apps.</p>
-      </header>
-      <ul class="contact-grid stagger">
-        <li class="reveal">
-          <a class="contact-card" href="mailto:sak31207@gmail.com">
-            <span class="contact-icon"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg></span>
-            <span class="contact-text"><strong>Email</strong><span>sak31207@gmail.com</span></span>
-          </a>
-        </li>
-        <li class="reveal">
-          <a class="contact-card" href="https://wa.me/923303674169" target="_blank" rel="noopener noreferrer">
-            <span class="contact-icon"><svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg></span>
-            <span class="contact-text"><strong>WhatsApp</strong><span>Send me a message<span class="sr-only"> (opens in a new tab)</span></span></span>
-          </a>
-        </li>
-        <li class="reveal">
-          <a class="contact-card" href="https://github.com/shabir56" target="_blank" rel="noopener noreferrer">
-            <span class="contact-icon"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg></span>
-            <span class="contact-text"><strong>GitHub</strong><span>github.com/shabir56<span class="sr-only"> (opens in a new tab)</span></span></span>
-          </a>
-        </li>
-        <li class="reveal">
-          <a class="contact-card" href="https://www.facebook.com/share/1ESaxn1CjX/" target="_blank" rel="noopener noreferrer">
-            <span class="contact-icon"><svg class="icon" aria-hidden="true"><use href="#i-facebook"/></svg></span>
-            <span class="contact-text"><strong>Facebook</strong><span>Find me on Facebook<span class="sr-only"> (opens in a new tab)</span></span></span>
-          </a>
-        </li>
-      </ul>
+  <section id="contact" class="section contact" aria-labelledby="contact-title">
+    <div class="wrap split">
+      <h2 id="contact-title" class="split-head">Contact</h2>
+      <div class="split-body">
+        <p class="contact-lead">For project inquiries, collaboration or feedback on my apps, write to me.</p>
+        <a class="contact-mail" href="mailto:sak31207@gmail.com">sak31207@gmail.com</a>
+        <ul class="channels">
+          <li><a href="https://wa.me/923303674169" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>WhatsApp<span class="sr-only"> (opens in a new tab)</span></a></li>
+          <li><a href="https://github.com/shabir56" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg>GitHub<span class="sr-only"> (opens in a new tab)</span></a></li>
+          <li><a href="https://www.facebook.com/share/1ESaxn1CjX/" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-facebook"/></svg>Facebook<span class="sr-only"> (opens in a new tab)</span></a></li>
+        </ul>
+      </div>
     </div>
   </section>
 </main>

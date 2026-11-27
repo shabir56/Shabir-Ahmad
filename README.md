@@ -29,8 +29,8 @@ GitHub Pages serves the `main` branch from the repository root. Pushing to `main
 
 ## Editing content
 
-- **Text and links:** edit `index.html`. Each section has an `id` (`about`, `skills`, `projects`, `education`, `agriculture`, `interests`, `contact`) that the navigation links to.
+- **Text and links:** edit `index.html`. Each section has an `id` (`about`, `projects`, `skills`, `education`, `interests`, `contact`) that the navigation links to.
 - **Colors and fonts:** change the variables at the top of `style.css`. The dark theme is in `:root`, the light theme in `:root[data-theme="light"]`.
 - **Images:** add WebP versions next to the originals and reference them with a `<picture>` element, as the existing project cards do.
 - **Portrait orbits:** the planets circling the hero photo are pure CSS (`.orbit-1` to `.orbit-3` in `style.css`). Change `--period` to speed an orbit up or down and `--phase` to change where it starts. The animation pauses when scrolled off-screen and stays still for visitors who prefer reduced motion.
-- **About section:** it opens on click. Add the `open` attribute to `<details id="about-details">` to show it expanded by default.
+- **Pashto words in English text:** wrap them in `<bdi lang="ps" dir="rtl">…</bdi>` so they keep their right-to-left order.

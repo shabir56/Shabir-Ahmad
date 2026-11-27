@@ -113,19 +113,6 @@
     revealEls.forEach(function (el) { reveal.observe(el); });
   }
 
-  /* ---------- About: opens on click, and also when it is linked to ---------- */
-  var about = document.getElementById('about-details');
-
-  function openAboutIfTargeted() {
-    if (about && window.location.hash === '#about') { about.open = true; }
-  }
-  openAboutIfTargeted();
-  window.addEventListener('hashchange', openAboutIfTargeted);
-  document.addEventListener('click', function (e) {
-    var link = e.target.closest && e.target.closest('a[href="#about"]');
-    if (link && about) { about.open = true; }
-  });
-
   /* ---------- Pause the orbit animation while it is off-screen ---------- */
   var solar = document.getElementById('solar');
   if (solar && 'IntersectionObserver' in window) {
